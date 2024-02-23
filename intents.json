@@ -1,0 +1,140 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up?",
+                "how is it going?"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "Hi there!",
+                "Good day!",
+                "Greetings!",
+                "What can I do for you?"
+            ]
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "take care"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Take care!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thank you",
+                "thanks",
+                "thanks a lot"
+            ],
+            "responses": [
+                "You're welcome!",
+                "No problem!",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "what can you do?",
+                "what are my options?",
+                "how can you help?",
+                "what do you offer?"
+            ],
+            "responses": [
+                "I can help you with product information, pricing, and more. Feel free to ask me anything!"
+            ]
+        },
+        {
+            "tag": "order placement",
+            "patterns": [
+                "Make a purchase",
+                "Order products/services",
+                "Complete a transaction",
+                "Request an item",
+                "Procure goods",
+                "Reserve merchandise",
+                "Buy items",
+                "Acquire products",
+                "Secure a purchase",
+                "Arrange for delivery"
+            ],
+            "responses": [
+                "The order has been successfully submitted.",
+                "The purchase has been completed."
+            ]
+        },
+        {
+            "tag": "negotiation",
+            "patterns": [
+                "I want to negotiate",
+                "I want the price to be lower",
+                "Proceed with negotiation",
+                "I'm open to negotiating.",
+                "I'd like to engage in some give-and-take.",
+                "I'm eager to start the negotiation process."
+            ],
+            "responses": [
+                "What is the price you needed",
+                "Thank you for being open to negotiation. I believe we can find common ground."
+            ]
+        },
+        {
+            "tag": "Price Lower Request",
+            "patterns": [
+                "Lower the cost slightly.",
+                "A slightly lower cost would better meet our budget.",
+                "We're seeking a small adjustment in the cost."
+            ],
+            "responses": [
+                "Certainly, we'll work on adjusting the cost accordingly.",
+                "Understood, we'll see what we can do to accommodate your request.",
+                "Thank you for your input, we'll review the pricing to see if it can be adjusted."
+            ]
+        },
+        {
+            "tag": "nego_success",
+            "patterns": [
+                "Ok I would buy them"
+            ],
+            "responses": [
+                "Negotiation successful. Final Price is ",
+                "Final Price is ",
+                "We conclude our deal at price "
+            ]
+        },
+        {
+            "tag": "nego_doubt",
+            "patterns": [],
+            "responses": [
+                "That was too lower. My Final Price is ",
+                "Can't Lower than ",
+                "We would consider if you accept our deal at ",
+                "My owner would throw me out of my job. My owner would be happy if you buy at "
+            ]
+        },
+        {
+            "tag": "nego_failure",
+            "patterns": [
+                "I can't afford it"
+            ],
+            "responses": [
+                "Sorry!! We can't afford it. By the way thanks for negotiating with me"
+            ]
+        }
+    ]
+}
